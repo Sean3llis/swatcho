@@ -1,0 +1,22 @@
+{
+  "name": "swatcho",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seane235/swatcho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seane235/swatcho/issues"
+  },
+  "homepage": "https://github.com/Seane235/swatcho#readme"
+}
