@@ -1,8 +1,8 @@
 module.exports = {
-  entry: "./app/assets/frontend/main.jsx",
+  entry: "./app/assets/components/main.jsx",
   output: {
     path: __dirname + "/app/assets/javascripts",
-    filename: "bundle.js"
+    filename: "app.js"
   },
   module: {
     loaders: [
@@ -17,6 +17,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx'],
+    root: __dirname + '/node_modules' 
   }
 };
