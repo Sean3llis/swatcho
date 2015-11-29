@@ -1,0 +1,11 @@
+.swatch {
+	color: $light;
+	text-align: center;
+	overflow: hidden;
+	.color {
+		padding: 2px 0px;
+	}
+	.title {
+		color: $dark;
+	}
+}

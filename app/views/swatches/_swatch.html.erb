@@ -1,0 +1,9 @@
+<div class="col-sm-3">
+	<a href="/swatches/#{swatch.id}">test</a>
+	<div class="swatch panel">
+		<% swatch.colors.each do |color| %>
+			<div class="color" style="background-color: <%= color %>; height: 20px;"></div>
+		<% end %>
+		<h3 class="title"><%= swatch.title %> - <%= swatch.user.email %></h3>
+	</div>
+</div>

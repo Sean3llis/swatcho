@@ -1,0 +1,12 @@
+$nav-height: 40px;
+$light: #fff;
+
+nav {
+	background-color: #263A3D;
+	#logo {
+		color: $light;
+		font-size: $nav-height;
+		line-height: $nav-height;
+		padding: 20px 0px;
+	}
+}

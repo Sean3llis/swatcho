@@ -1,0 +1,2 @@
+class SwatchesController < ApplicationController
+end

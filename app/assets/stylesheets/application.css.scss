@@ -1,0 +1,15 @@
+/*
+ *= require_self
+ */
+
+@import "bootstrap";
+
+@import "variables.css.scss";
+@import "home.css.scss";
+@import "nav.css.scss";
+@import "swatches.css.scss";
+@import "users.css.scss";
+
+body {
+	background-color: #eee;
+}
